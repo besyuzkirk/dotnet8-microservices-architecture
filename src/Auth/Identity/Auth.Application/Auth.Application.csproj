@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
+    <ProjectReference Include="..\Auth.Domain\Auth.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\User\" />
+    <Folder Include="Commands\Role\" />
+    <Folder Include="Queries\User\" />
+    <Folder Include="Queries\Role\" />
+  </ItemGroup>
+
+</Project>
