@@ -17,11 +17,11 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{C529C5CC-406D-42C4-93B8-5C6BC1D4180E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket.API\Basket.API.csproj", "{BC430C14-450F-4E2F-8E5B-7AA1CF73D3B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{BC430C14-450F-4E2F-8E5B-7AA1CF73D3B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{3819273F-1118-4609-BD01-4A360300DE0A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount.Grpc\Discount.Grpc.csproj", "{D33C7C49-72FF-4B69-9BEC-36B3B1C7A4A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{D33C7C49-72FF-4B69-9BEC-36B3B1C7A4A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{39ED4C0E-5388-45B1-BBDB-D491AF979C98}"
 EndProject
